@@ -1,0 +1,11 @@
+headers: (0,0);(0,1);(1,1);(1,2);(1,3);(1,4)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['sh319', 'sh321', 'sh323', 'sh325', 'sh319scr', 'sh325scr', 'sh119', 'EGFP', 'U6PT'],
+    'sense': ['GCGCACACCUGUACAGAUG', 'GCGCACACCUGUACAGAUGAU', 'GCGCACACCUGUACAGAUGAUGU', 'GCGCACACCUGUACAGAUGAUGUAC', 'GUCAUACCGGCAAGGAUCC', 'GGCCGGAGAUAAGUUCACUCAACUC', 'GAAGACCAGAUGGCCAAGG', 'No hairpin, empty vector.', 'Human U6 promoter/terminator, no hairpin.'],
+    'loop': ['CAAGCUUC', 'CAAGCUUC', 'CAAGCUUC', 'CAAGCUUC', 'CAAGCUUC', 'CAAGCUUC', 'CAAGCUUC', '', ''],
+    'antisense': ['CAUCUGUACAGGUGUGCGC', 'AUCAUCUGUACAGGUGUGCGC', 'ACAUCAUCUGUACAGGUGUGCGC', 'GUACAUCAUCUGUACAGGUGUGCGC', 'GGAUCCUUGCCGGUAUGAC', 'GAGUUGAGUGAACUUAUCUCCGGCC', 'CCUUGGCCAUCUGGUCUUC', '', ''],
+    'Comments': ['PAI-2 684–702', 'PAI-2 684–704', 'PAI-2 684–706', 'PAI-2 684–708', 'scrambled sh319', 'scrambled sh325', 'PAI-2 151–169', 'none', 'none'],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8])

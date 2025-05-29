@@ -1,0 +1,9 @@
+headers: (0,0);(0,1);(0,2)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Treatment Option': ['Oral Contraceptives (OCPs)', '', 'Antihistamines', '', 'Conjugated Estrogens', '', 'Glucocorticoids', '', 'GnRH Agonists', 'Alkaylated Steroids', '', 'Tamoxifen', '', 'Bilateral oopherectomy', ''],
+    'Advantages': ['- Usually tried as initial therapy', '- Fewer side effects than other most other therapies', '- Well tolerated, few side effects', '', '- Avoids progesterone component of OCPs', '', '- Able to suppress multiple components of the immune system', '- Can be combined with other therapies', '- Often used if OCPs and glucocorticoids are not effective', '- Can be combined with low dose steroids', '- Interferes with gonadal hormone receptors', '- Has been used successfully in patients unresponsive to conjugated estrogen', '', '- Definitive treatment, used if medical options unsuccessful', ''],
+    'Disadvantages': ['- Limited success due to the progesterone component of OCPs', '', '- Rarely effective as monotherapy', '- Does not address underlying mechanism', '- Increased risk of endometrial cancer, not commonly used today', '- Often require high doses', '- Usually not effective alone', '- Often require high doses', '- Can cause symptoms of estrogen deficiency (hot flashes, decreased bone mineral density)', '- Can cause symptoms of excess androgens (facial hair, hepatic dysfunction, mood disorders)', '', '- Can cause symptoms of estrogen deficiency', '- Increased risk of venous thrombosis and cataract formation', '- Surgical procedure, associated morbidity', '- Symptoms of estrogen deficiency'],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])

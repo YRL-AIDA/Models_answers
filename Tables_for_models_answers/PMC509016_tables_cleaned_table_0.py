@@ -1,0 +1,13 @@
+headers: (0,0);(0,1);(0,2);(0,3);(0,4);(0,5);(0,6)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    '0 h': ['', '', '', '', '', '', '', '', '', '', '', '', ''],
+    '9.5 h': ['', '', '', '', '', '', '', '', '', '', '', '', ''],
+    '11.5 h': ['6144 – purine base metabolism', '9277 – cell wall (sensu Fungi)', '297 – spermine transporter activity', '15846 – polyamine transport', '', '', '', '', '', '', '', '', ''],
+    '13.5 h': ['6099 – tricarboxylic acid cycle', '3773 – heat shock protein activity', '6950 – response to stress', '297 – spermine transporter activity', '4373 – glycogen (starch) synthase activity', '15846 – polyamine transport', '5353 – fructose transporter activity', '15578 – mannose transporter activity', '7039 – vacuolar protein catabolism', '8645 – hexose transport', '4396 – hexokinase activity', '5215 – transporter activity', '5977 – glycogen metabolism'],
+    '15.5 h': ['6099 – tricarboxylic acid cycle', '5749 – respiratory chain complex II (sensu Eukarya)', '6121 – oxidative phosphorylation, succinate to ubiquinone', '8177 – succinate dehydrogenase (ubiquinone) activity', '3773 – heat shock protein activity', '4373 – glycogen (starch) synthase activity', '7039 – vacuolar protein catabolism', '6950 – response to stress', '4129 – cytochrome c oxidase activity', '5751 – respiratory chain complex IV (sensu Eukarya)', '4396 – hexokinase activity', '297 – spermine transporter activity', ''],
+    '18.5 h': ['3773 – heat shock protein activity', '6099 – tricarboxylic acid cycle', '5977 – glycogen metabolism', '6950 – response to stress', '4373 – glycogen (starch) synthase activity', '4129 – cytochrome c oxidase activity', '5751 – respiratory chain complex IV (sensu Eukarya)', '5749 – respiratory chain complex II (sensu Eukarya)', '6121 – oxidative phosphorylation, succinate to ubiquinone', '8177 – succinate dehydrogenase (ubiquinone) activity', '30162 – regulation of proteolysis and peptidolysis', '4364 – glutathione transferase activity', ''],
+    '20.5 h': ['6099 – tricarboxylic acid cycle', '3773 – heat shock protein activity', '5749 – respiratory chain complex II (sensu Eukarya)', '6121 – oxidative phosphorylation, succinate to ubiquinone', '8177 – succinate dehydrogenase (ubiquinone) activity', '6537 – glutamate biosynthesis', '6097 – glyoxylate cycle', '5750 – respiratory chain complex III (sensu Eukarya)', '9060 – aerobic respiration', '4129 – cytochrome c oxidase activity', '5751 – respiratory chain complex IV (sensu Eukarya)', '16491 – oxidoreductase activity', '6101 – citrate metabolism'],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])

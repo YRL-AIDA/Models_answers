@@ -1,0 +1,12 @@
+headers: (0,0);(0,1);(0,2);(0,3);(0,4);(0,5)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Reference': ['', '[20]', '[19]', '[21]', '[22]', '[23]', 'UniGene (Build 162) d)', 'UniGene (Build 162) d)', 'UniGene (Build 162) d)', '', '[24]', '[25]', '[37]', '[30]', '[31]', '[26]', '[38]', '[27] and online e)', '[28] and online f)', '[29]', '[39]', '[39]', '', '[32]', '[33]', '', '[34]', '[35]', '[35]', '[35]', '[35]', 'Total (with inter-study redundancy)', 'Total (without redundancy)'],
+    'Source / method a)': ['In-silico projects', 'Retina, TIGR (ID: version 3.3)', 'Retina, TIGR (ID: version 3.3)', 'Retina, UniGene (ID: build 118)', 'Retina, UniGene (ID: build 113)', 'Retina, EST (dbEST)', 'Retina', 'RPE', 'Retina & RPE', 'cDNA library sequencing', 'Fovea, conventional', 'Retina, conventional', 'Retina & RPE, SSH', 'Retina, subtracted', 'Retina, PC and subtracted', 'RPE, primary and amplified, conventional', 'RPE, SSH', 'Retina, PC', 'RPE, PC', 'Retina, PC (ID: MRA)', 'Retina, SSH', 'RPE, SSH', 'Microarray Analysis', 'Retina, Affymetrix (ID: Mu11K subB)', 'Retina, custom array', 'Serial Analysis of Gene Expression', 'Retina, adult', 'Retina (ID: HMAC2)', 'Retina (ID: HPR1)', 'Retina (ID: HPR2)', 'RPE (ID: HRPE1)', '', ''],
+    'Species b)': ['', 'Hs', 'Hs', 'Hs', 'Hs', 'Hs', 'Hs', 'Hs', 'Hs', '', 'Hs', 'Hs', 'Hs', 'Hs', 'Cf', 'Hs', 'Bt', 'Hs', 'Hs', 'Mm', 'Hs', 'Bt', '', 'Mm', 'Hs', '', 'Mm', 'Hs', 'Hs', 'Hs', 'Hs', '', ''],
+    'Original dataset': ['', '1,047', '1,315', '4,974', '6,190', '40,000', '3,560', '1,760', '11,976', '', '209', '607', '401', '137', '173', '2,101', '1,000', '2,701', '6,182', '1,793', '1,080', '2,350', '', '6,540', '10,034', '', '54,009', '102,359', '59,661', '105,312', '53,666', '', ''],
+    'No. of genes retrieved c) (non-redundant)': ['', '30', '11', '1,485', '46', '117', '1,612', '1,506', '9,178', '', '40', '475', '6', '49', '66', '336', '35', '2,096', '3,657', '421', '310', '343', '', '67', '530', '', '4,233', '7,269', '5,689', '7,268', '5,755', '52,630', '15,645'],
+    'No. of genes identified in ≥ 2 studies': ['', '30', '11', '1,480', '45', '110', '1,211', '1,116', '9,178', '', '38', '465', '6', '48', '65', '330', '34', '2,059', '3,608', '412', '301', '329', '', '67', '508', '', '3,974', '6,919', '5,512', '6,955', '5,211', '50,022', '13,037'],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32])

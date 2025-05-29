@@ -1,0 +1,10 @@
+headers: (0,0);(0,1);(0,2);(0,3)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Scale': ['Beliefs about treatment for depression', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)', 'Beliefs about treatment for schizophrenia', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)', 'Beliefs about treatment for both disorders', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)', 'Social distance from person with depression', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)', 'Social distance from person with schizophrenia', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)', 'Social distance from both', 'Pre-test mean (SD)', 'Follow-up mean (SD)', 'Change (95% CI)'],
+    'MHFA group': ['', '82.10 (17.27)', '86.29 (18.30)', '4.19 (1.18 to 7.20)', '', '84.28 (19.33)', '87.41 (18.26)', '3.13 (0.30 to 5.96)', '', '83.28 (16.65)', '86.98 (16.78)', '3.70 (1.16 to 6.24)', '', '8.74 (2.80)', '7.86 (2.50)', '-0.88 (-1.23 to -0.53)', '', '12.12 (3.53)', '11.27 (3.50)', '-0.84 (-1.23 to -0.46)', '', '20.88 (5.79)', '19.14 (5.43)', '-1.73 (-2.37 to -1.10)'],
+    'Control group': ['', '83.00 (18.95)', '83.42 (18.48)', '0.42 (-2.20 to 3.04)', '', '88.21 (16.76)', '88.41 (16.11)', '0.20 (-1.87 to 2.27)', '', '85.51 (15.05)', '85.89 (14.42)', '0.38 (-1.46 to 2.23)', '', '8.63 (2.63)', '8.46 (2.54)', '-0.18 (-0.51 to 0.16)', '', '12.13 (3.50)', '11.62 (3.35)', '-0.51 (-0.87 to -0.15)', '', '20.79 (5.53)', '20.07 (5.30)', '-0.72 (-1.29 to -0.14)'],
+    'P-value for group × time interaction': ['.062', '', '', '', '.096', '', '', '', '.036', '', '', '', '.005', '', '', '', '.211', '', '', '', '.020', '', '', ''],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])

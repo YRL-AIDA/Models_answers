@@ -1,0 +1,8 @@
+headers: (0,0);(1,0);(1,1)
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Gene name': ['TNF-induced protein', 'Tumour necrosis factor receptor superfamily 10d', 'Tumour necrosis factor receptor superfamily 9', 'Tumour necrosis factor receptor superfamily 10b', 'Tumour necrosis factor receptor superfamily 6', 'Death-associated protein kinase 1', 'DNA fragmentation factor, beta polypeptide (caspase-activated DNase)', 'Bcl-2-related protein A1', 'Bcl-2/adenovirus E1B 19 kDa interacting protein 3-like', 'Bcl-2 antagonist/killer', 'Bcl-2 associated athanogene 3', 'Bcl-2/adenovirus E1B 19 kDa interacting protein 1', 'Baculoviral IAP repeat-containing 3', 'Baculoviral IAP repeat-containing 2', 'Chemokine (C-X-C motif) receptor 4', 'CD27-binding (Siva) protein', 'Thioredoxin-like, 32 kDa', 'Mitogen-activated protein kinase kinase kinase 5', 'Microtubule associated protein tau', 'Macrophage erythroblast attacher', 'Testis enhanced gene transcript (BAX inhibitor 1)', 'Gene name', 'Major histocompatibility complex, class II, DR alpha', 'Major histocompatibility complex, class II, DQ beta 1', 'Major histocompatibility complex, class II, DP alpha 1', 'H. sapiens HLA-DMA gene', 'Major histocompatibility complex, class II, DR beta 1', 'Major histocompatibility complex, class II, DR beta 5', 'HLA-B associated transcript 1', 'Major histocompatibility complex, class I, C'],
+    'Fold change': ['1.9', '1.9', '1.7', '1.7', '1.6', '1.5', '1.4', '2.2', '1.8', '1.4', '1.4', '1.2', '1.6', '1.2', '1.8', '1.5', '1.4', '1.4', '1.4', '1.3', '1.2', 'Fold change', '2.0', '1.8', '1.8', '1.7', '1.6', '1.5', '1.2', '1.2'],
+}, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29])
